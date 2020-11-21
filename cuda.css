@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* header-part *//* header-part */
+/* header-part *//* header-part */
+
+.head{
+    width: 100%;
+    height: 600px;
+    background-color: #87509c;
+}
+.head img{
+    height: 37px;
+    width: 117px;
+}
+.head ul{
+    height: 34px;
+    width: 450px;
+    margin: auto;
+    margin-right: 0%;
+}
+.head ul li a{
+    color: #ffffff;
+}
+.head ul li a:hover{
+    background-color: #643a79;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.text{
+    width: 60% !important;
+    height: 215px !important;
+    margin: auto;
+    margin-top: 145px;
+}
+.text h2{
+    color: #f7f3ea;
+    font-weight: 700;
+}
+.text button{
+    background-color: #eb7d4b;
+    width: 292px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    margin: 65px auto;
+    color: #ffffff;
+    font-weight: 500;
+    display: block;
+}
+.text button:hover{
+    background-color: #643a79;
+}
+
+/* main-part *//* main-part */
+/* main-part *//* main-part */
+
+.main{
+    background-color: #17c2a4;
+    width: 100%;
+    overflow: hidden;
+}
+.main h2{
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 118px;
+    margin-bottom: 45px;
+}
+.main p{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.main h4{
+    color: #ffffffff;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+/* team-part *//* team-part */
+/* team-part *//* team-part */
+
+.col-md-3{
+    display: block;
+}
+.col-md-3 img{
+    margin: 0 auto 50px;
+    display: block;
+}
+.team{
+    width: 100%;
+    background-color: #e7f1f8;
+    padding-bottom: 100px;
+}
+.team h2{
+    text-align: center;
+    font-weight: 700;
+    color: #3c4761;
+    padding: 5%;
+    padding-bottom: 0;
+}
+.team p{
+    text-align: center;
+    color: #3c4761;
+    padding: 2%;
+}
+.team img{
+    height: 230px;
+    width: 200px;
+}
+.team h4{
+    text-align: center;
+    font-weight: 700;
+    color: #3c4761;
+    padding: 2%;
+}
+.team h6{
+    text-align: center;
+    font-weight: 700;
+    color: #3c4761;
+    padding: 2%;
+}
+
+/* skill-part *//* skill-part */
+/* skill-part *//* skill-part */
+.skill{
+    width: 100%;
+    background-color: #ffffff;
+    padding-bottom: 100px;
+}
+.skill h2{
+    text-align: center;
+    font-weight: 700;
+    color: #3c4761;
+    padding: 5%;
+    padding-bottom: 0;
+}
+.skill p{
+    text-align: center;
+    color: #3c4761;
+    padding: 2%;
+}
+
+/* portfilo-part *//* portfilo-part */
+/* portfilo-part *//* portfilo-part */
+
+.protfilo{
+    width: 100%;
+    background-color: #ffdd99;
+    padding-bottom: 100px;
+}
+.protfilo h2{
+    text-align: center;
+    font-weight: 700;
+    color: #3c4761;
+    padding: 5%;
+    padding-bottom: 0;
+    position: relative;
+}
+.protfilo p{
+    text-align: center;
+    color: #3c4761;
+    padding: 2%;
+}
+.protfilo ul{
+    margin: auto;
+}
+.protfilo ul li{
+    list-style-type: none;
+    background-color: #ebc985;
+    margin: 5px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.protfilo ul li a{
+    padding: 20px;
+    color: #3c4761;
+}
+.protfilo ul li:hover{
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+.protfilo img{
+    padding: 10%;
+    padding-bottom: 2%;
+}
+.protfilo button{
+    margin: auto;
+    background-color: #17c2a4;
+    width: 200px;
+    height: 50px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    display: block;
+}
+.protfilo button:hover{
+    background-color: #E5C689;
+}
+
+/* contact-part *//* contact-part */
+/* contact-part *//* contact-part */
+
+.contact{
+    width: 100%;
+    background-color: #d74680;
+    padding: 100px;
+}
+.contact h2{
+    text-align: center;
+    font-weight: 700;
+    color: #FFFFFFFF;
+    padding: 5%;
+    padding-bottom: 0;
+    position: relative;
+}
+.contact p{
+    text-align: center;
+    color: #ffffffff;
+    padding: 2%;
+}
+.contact .img img{
+    height: 120px;
+    width: 100px;
+}
+.contact .img{
+    float: left;
+}
+.contact .text{
+    margin-top: 0;
+}
+.contact .text p{
+    text-align: left;
+    margin-left: 20px;
+}
+.contact .text h5{
+    text-align: left;
+    margin-left: 20px;
+    color: #ffffff;
+}
+.contact .text span{
+    text-align: left;
+    margin-left: 20px;
+    color: #ffdd99;
+}
+
+/* footer-part *//* footer-part */
+/* footer-part *//* footer-part */
+
+.footer{
+    width: 100%;
+    background-color: #3c5499;
+    padding-bottom: 100px;
+}
+.footer h2{
+    text-align: center;
+    font-weight: 700;
+    color: #FFFFFFFF;
+    padding: 5%;
+    padding-bottom: 0;
+    position: relative;
+}
+.footer p{
+    text-align: center;
+    color: #ffffffff;
+    padding: 2%;
+}
+.footer input{
+    background-color: #273a71;
+    padding: 10px;
+}
+.footer textarea{
+    background-color: #273a71;
+    width: 100%;
+}
+.footer button{
+    display: block;
+    margin: 20px auto;
+    background-color: #30bae7;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: #ffffff;
+}
+.footer button:hover{
+    background-color: #273a71;
+}
+
+/* footer-nav *//* footer-nav */
+/* footer-nav *//* footer-nav */
+
+.footer-nav{
+    background-color: #344b8e;
+}
+.footer-nav ul{
+    width: 100%;
+    height: 50px;
+}
+.footer-nav ul li{
+    width: 70px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.footer-nav ul li a{
+    padding: 10px;
+}
